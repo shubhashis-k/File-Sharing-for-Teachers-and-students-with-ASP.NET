@@ -1,0 +1,39 @@
+﻿
+/******************************UserControl: Message*******************/
+.message-box {
+    width: 300px;
+    display: inline;
+    height: auto;
+    padding: 30px 20px;
+    position: fixed;
+    right: -320px;
+    top: 90px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.close-btn {
+    position: absolute;
+    right: 6px;
+    top: 0;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    opacity: 0.7;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+        filter: alpha(opacity=70);
+}
+
+.message {
+    width: 100%;
+}
+
+
+.error {
+    background-color: #d04a01;
+    border: 2px none #983600;
+}
+
+
+
